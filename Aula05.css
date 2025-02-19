@@ -1,0 +1,13 @@
+header {
+    background-color: darkcyan; /* cor de fundo do cabeçalho */
+    text-align: center; /* alinhamento do texto */
+    color: aliceblue; /* cor da letra */
+    padding: 10px;  /* tamanho/ preenchimento do cabeçalho */
+}
+
+footer {
+    background-color: darkcyan;
+    text-align: center;
+    color: aliceblue;
+    padding: 5px
+}

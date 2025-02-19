@@ -1,0 +1,13 @@
+header {
+    background-color: blue; /* cor de fundo do cabeçalho*/ 
+    text-align: center; /*alinhamento do texto */
+    color: whitesmoke; /* cor da letra*/
+    padding: 10px; /* tamanho/preenchimento do cabeçalho*/
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: ivory;
+    padding: 20px;
+}
