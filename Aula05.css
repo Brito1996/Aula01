@@ -2,12 +2,49 @@ header {
     background-color: darkcyan; /* cor de fundo do cabeçalho */
     text-align: center; /* alinhamento do texto */
     color: aliceblue; /* cor da letra */
-    padding: 10px;  /* tamanho/ preenchimento do cabeçalho */
+    padding: 13px; /* tamanhopreenchimento do cabeçalho */
 }
 
+
+.joaquim {
+    padding: 150px;
+    background-color: grey;
+}
+
+.renato {
+     padding: 5px;
+     background-color: palegreen;
+}
+
+.joao {
+    padding: 10px;
+    background-color: rgb(14, 173, 120);
+}
 footer {
     background-color: darkcyan;
     text-align: center;
     color: aliceblue;
     padding: 5px
+}
+
+header h1 {
+    color: whitesmoke; /* COLOR SEMPRE COR DA LETRA*/
+    font-size: 30px; /* FUNÇÃO FONTE  SIZE SEMPRE PARA TAMANHO DE LETRAS*/
+    
+}
+
+footer  {
+    background-color: dodgerblue; /* DOR DE FUNDO DO RODAPÉ*/
+    text-align: center; /* ALINHAMENTO DO TEXTO */
+    padding: 10px /* TAMANHO DA CAIXA */
+
+}
+
+footer p {
+    color: rgb(0, 7, 105); /* COR DA LETRA*/
+    font-size: 17px; /* TAMANHO DA FONTE*/
+}
+
+footer .primeiro-nome {
+    color: rgb(0, 40, 116); /* COR DA PRIMEIRA PARAGRAFO COM COMANDO CLASS*/
 }
