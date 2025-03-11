@@ -1,29 +1,38 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 /*ESTILIZANDO O HEADER*/
 header {
-    padding: 25px; /*responsavel  pelo preenchimento interno/tamanho*/
-    background-color: #4c69f6; /*cor de fundo*/
-    display: flex; /*tornando os itens flex- lado a lado*/
-    justify-content: center; /*justificando o conteudo ao centro*/
-    gap: 50px; /*espaço entre os elementos*/
-    align-items: center; /*responsavel por alinhar verticalmente os itens*/
-    
+    padding: 25px;
+    /*responsavel  pelo preenchimento interno/tamanho*/
+    background-color: #4c69f6;
+    /*cor de fundo*/
+    display: flex;
+    /*tornando os itens flex- lado a lado*/
+    justify-content: center;
+    /*justificando o conteudo ao centro*/
+    gap: 50px;
+    /*espaço entre os elementos*/
+    align-items: center;
+    /*responsavel por alinhar verticalmente os itens*/
+
 }
 
 /*estilizando  o icone*/
 header i {
-    color: #4c94f6; /*Cor do icone*/
-    font-size: 60px; /*Tamanho do Icone*/
-   
+    color: #4c94f6;
+    /*Cor do icone*/
+    font-size: 60px;
+    /*Tamanho do Icone*/
+
 }
 
 
 /*ESTILIZANDO O TÍTULO*/
 header h1 {
-    color: 	whitesmoke; /*cor da letra*/
-    font-size: 36px; /*tamanho da letra*/
+    color: whitesmoke;
+    /*cor da letra*/
+    font-size: 36px;
+    /*tamanho da letra*/
     font-family: cursive;
 }
 
@@ -32,28 +41,41 @@ header h1 {
 /*INÍCIO PRIMEIRA SESSÃO*/
 
 .sessao1 {
-    padding: 160px; /*preenchimento/tamanho*/
-    background-color:#f6db35; /*cor de fundo*/
-    display: flex; /*tornando flex/lado a lado*/
-    justify-content: center; /*justificando  conteudo ao centro*/
-    align-items: center; /*alinhamento vertical dos itens*/
-    gap: 60px; /*espaço entre os elementos*/
+    padding: 160px;
+    /*preenchimento/tamanho*/
+    background-color: #f6db35;
+    /*cor de fundo*/
+    display: flex;
+    /*tornando flex/lado a lado*/
+    justify-content: center;
+    /*justificando  conteudo ao centro*/
+    align-items: center;
+    /*alinhamento vertical dos itens*/
+    gap: 60px;
+    /*espaço entre os elementos*/
 }
 
 .sessao1 span {
-font-size: 45px; /*tamanho da letra*/
-color :  #4c69f6; /*cor da letra*/
+    font-size: 45px;
+    /*tamanho da letra*/
+    color: #4c69f6;
+    /*cor da letra*/
 }
 
 .sessao1 img {
-    width: 640px; /*largura da imagem */
-    height: 480px; /*altura da imagem*/
+    width: 640px;
+    /*largura da imagem */
+    height: 480px;
+    /*altura da imagem*/
 }
 
 .sessao1 p {
-    color: whitesmoke; /*cor da letra*/
-    font-size: 30px; /*tamanho da letra*/
-    font-family: cursive; /*tipo de font*/
+    color: whitesmoke;
+    /*cor da letra*/
+    font-size: 30px;
+    /*tamanho da letra*/
+    font-family: cursive;
+    /*tipo de font*/
 }
 
 /*FIM DA PRIMEIRA SESSÃO*/
@@ -61,43 +83,146 @@ color :  #4c69f6; /*cor da letra*/
 /*INICIO DA SEGUNDA SESSÃO*/
 
 .sessao2 {
-    background-color: #ffc510; /*cor de fundo*/
-    padding: 160px; /*preenchimento*/
+    background-color: #ffc510;
+    /*cor de fundo*/
+    padding: 160px;
+    /*preenchimento*/
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
     flex-direction: column;
 
-}  
+}
 
 .sessao2 i {
-    font-size: 50 px; /*tamanho do icone*/
-    color: transparent; /*cor do icone*/
-    
+    font-size: 50 px;
+    /*tamanho do icone*/
+    color: transparent;
+    /*cor do icone*/
+
 
 }
 
 .sessao2 p {
-    color: white; /*cor da letra*/
-    font-size: 30px; /*tamanho da letra*/
-    font-family: cursive; /*tipo de font*/
+    color: white;
+    /*cor da letra*/
+    font-size: 30px;
+    /*tamanho da letra*/
+    font-family: cursive;
+    /*tipo de font*/
 }
 
 
 /*FIM DA SEGUNDA SESSAO*/
 
 .sessao3 {
-padding: 200px;
-background-image: url(imagens/2000_ad_illo-copy-1.jpg); /*UP IMG*/
-background-position: center; /*posicao da imagem*/
-background-size: cover; /*preenchimento da iamgem*/
-background-repeat: fixed; /*desabilitando repeticao da imagem*/
-background-attachment: fixed;
+    padding: 200px;
+    background-image: url(imagens/2000_ad_illo-copy-1.jpg);
+    /*UP IMG*/
+    background-position: center;
+    /*posicao da imagem*/
+    background-size: cover;
+    /*preenchimento da iamgem*/
+    background-repeat: fixed;
+    /*desabilitando repeticao da imagem*/
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
 }
 
 .sessao3 button {
     padding: 10px;
     width: 150px;
-    background-color:
+    background-color: white
+}
+
+/* FINAL DA TERCEIRA SESSÃO*/
+
+.sessao04 {
+    padding: 150px;
+    /*PREENCHIMENTO/TAMANHO DA SECTION*/
+    background-color: goldenrod;
+    /*COR DE FUNDO*/
+    display: flex;
+    /*DIXANDO AS DIVS LADO A LADO*/
+    gap: 150px;
+    /*ESPAÇAMENTO ENTRE AS CAIXAS*/
+    justify-content: space-evenly;
+    /*JUSTIFICANDO OS CONTEÚDOS*/
+}
+
+.sessao04 div {
+    /*ESTILIZANDO AS DIV/ CAIXAS (TOTAL 3)*/
+    width: 200px;
+    /*LARGURA DA CAIXA*/
+    height: 300px;
+    /*ALTURA DA CAIXA */
+    background-color: rgb(0, 162, 255);
+    /*COR DE FUNDO DA CAIXA*/
+    background-position: center;
+    /*COR DA LETRA*/
+
+}
+
+
+
+
+
+footer {
+    padding: 25px;
+    background-color: #ee5454;
+    text-align: center;
+    /*momentaneo*/
+}
+
+footer p {
+    color: goldenrod;
+    /*COR DA LETRA*/
+    font-size: 25px;
+    /*TAMANHO DA LETRA*/
+}
+
+footer i {
+    color: gold;
+    /*COR DO ICONE*/
+    font-size: 20px;
+    /*COR DA FONTE*/
+
+}
+
+.list-menu ul {
+    /*ALTERAÇÃO DA LISTA NÃO ORDENADA (ELEMENTO PAI)*/
+    display: flex;
+    /*TORNANDO AS (li) FLEX/LADO A LADO*/
+    justify-content: center;
+    /*DEIXANDO ELAS CENTRALIZADAS*/
+    gap: 20px;
+    /*ESPAÇO ENTRE AS (li) */
+
+}
+
+.list-menu ul li {
+    /*ALTERAÇÃO DA LISTA (li) (ELEMENTO FILHO)*/
+    list-style: none;
+    /*REMOVENDO O ESTILO DE LISTA APLICADO POR PADRÃO*/
+}
+
+.list-menu ul li a {
+    /**/
+    text-decoration: none;
+    /*REMOÇÃO DO SUBLINHADO (DECORAÇÃO DE TEXTO: NENHUMA)*/
+    color: aqua;
+}
+
+
+.icones1 img {
+    width: 75x;
+    height: 75px;
+
+}
+
+.icones2 img {
+    width: 50px;
+    height: 50px;
 }
