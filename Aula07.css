@@ -152,7 +152,11 @@ header h1 {
     /*JUSTIFICANDO OS CONTEÚDOS*/
 }
 
+
+
+
 .sessao04 div {
+    /*ESTAMOS PADRONIZANDO AS CAIXAS/DIV1S*/
     /*ESTILIZANDO AS DIV/ CAIXAS (TOTAL 3)*/
     width: 200px;
     /*LARGURA DA CAIXA*/
@@ -162,11 +166,50 @@ header h1 {
     /*COR DE FUNDO DA CAIXA*/
     background-position: center;
     /*COR DA LETRA*/
+    text-align: center;
+    /*ESTOU ALINHANDO O TEXTO AO CENTRO*/
+    padding: 15px;
+    /*MARGEM INTERNA DA CAIXA*/
+
 
 }
 
+.div02 {
+    /*AQUI ESTAMOS ALTERANDO A SEGUNDA CAIXA/DIV*/
+    background-image: url(imagens/marvel300.jpg);
+    /*INSERINDO IMG*/
+    background-size: cover;
+    /*APLICANDO O PREENCHIMENTO TOTAL*/
 
 
+}
+
+.div02 p {
+    color: white;
+    background-color: rgba(128, 128, 128, 0.363);
+    font-weight: 700;
+    line-height: 25px;
+
+}
+
+.div01 i {
+    color: goldenrod;
+}
+
+.div03 img {
+    width: 100px;
+    height: 100px;
+}
+
+.div03 p {
+    font-size: 17px;
+    /*TAMANO DA FONTE*/
+    color: white;
+    /*COR DA FONTE*/
+    font-weight: 200;
+    /*PESO DA FONTE*/
+    line-height: 25px;
+}
 
 
 footer {
