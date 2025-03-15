@@ -17,6 +17,8 @@ header {
 
 }
 
+header
+
 /*estilizando  o icone*/
 header i {
     color: #4c94f6;
@@ -83,7 +85,7 @@ header h1 {
 /*INICIO DA SEGUNDA SESSÃO*/
 
 .sessao2 {
-    background-color: #ffc510;
+    background-color: #c1c9c8;
     /*cor de fundo*/
     padding: 160px;
     /*preenchimento*/
